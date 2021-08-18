@@ -1,0 +1,143 @@
+*{
+    box-shadow: border-box;
+    font-family: "TTMussels";
+}
+
+
+@font-face {
+    font-family: "TTMussels";
+    src: url(TTMussels-DemiBold\ \(1\).ttf);
+}
+
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contayner{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+}
+header nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+header nav a:hover{
+    color: #78b82a;
+    transition: 0.3s;
+}
+.CodeBtn{
+    border: none;
+    outline: none;
+    border: 1px solid #78b82a;
+    width: 200px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: transparent;
+    font-size: 16px;
+    color: #78b82a;
+    transition: 0.5s;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.CodeBtn:hover{
+    background-color: #78b82a;
+    color: #fff;
+    transition: 0.5s;
+}
+.user{
+    color: #00b0e1;
+    font-size: 16px;
+}
+.learn a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+.ru{
+    color: black;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+.ru:hover{
+    background-color: white;
+    color: black;
+}
+.uz{
+    width: 20px;
+    height: 20px;
+   color: black;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    margin: 5px;
+}
+.uz:hover{
+    background-color: white;
+    color: black;
+}
+
+p{
+    font-size: 66px;
+    line-height: 73px;  
+    color: #fff;
+}
+.contayner1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.m{
+    width: 277px;
+    height: 489px;
+    border: 1px solid #78b82a;
+   
+    margin: 0 auto;
+}
+.m4{
+    width: 240px;
+    margin: 0 auto;
+    
+    
+}
+.number{
+    font-size: 70px;
+    font-weight: 500px;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #78b82a;
+    
+}
+.text0{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 500px;
+    line-height: 22px;
+    color: #fff;
+}
+.text1{
+    font-size: 25px;
+    color: #78b82a;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 500px;
+    line-height: 22px;
+}
+.picture{
+    margin-top: 94px;
+}
