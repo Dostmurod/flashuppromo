@@ -18,7 +18,7 @@ body{
 .contayner{
     width: 1200px;
     margin: 0 auto;
-    padding: 10px;
+   
 }
 header{
     display: flex;
@@ -91,7 +91,7 @@ header nav a:hover{
     color: black;
 }
 
-p{
+.matn{
     font-size: 66px;
     line-height: 73px;  
     color: #fff;
@@ -140,4 +140,46 @@ p{
 }
 .picture{
     margin-top: 94px;
+}
+p{
+    font-size: 20px;
+    line-height: 23px;
+    color: #fff;
+}
+b{
+    color: #00b0e1;
+}
+.text4{
+    color: #78b82a;
+    font-size: 25px;
+    font-weight: 28px;
+    text-align: center;
+}
+.m1{
+    width: 277px;
+    height: 489px;
+    border: 1px solid #78b82a;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.m2{
+    width: 240px;
+    margin: 0 auto;
+    
+}
+.text3{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 500px;
+    line-height: 22px;
+    color: #fff;
+    
+}
+
+.picture1{
+    margin-top: 4px;
 }
